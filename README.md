@@ -115,7 +115,7 @@ curl $(ibmcloud fn action get test/yathello --url | tail -1)
 And if you want to debug it:
 
 ```
-ibmcloud fn action invoke stratistry-test/selhello --blocking
+ibmcloud fn action invoke test/selhello --blocking
 ```
 
 Let me know how it worked for you. Follow / DM me on Twitter: @blumareks
