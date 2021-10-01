@@ -8,7 +8,7 @@ def main(args):
     with tag("body"):
       with tag("h1"):
         text("search: %s" %
-        searchfile.searchfile(args.get("url"))
+        searchfile.searchfile(args.get("url")))
 #	  callselenium.callselenium(args.get("url")))
   return {
     "body": doc.getvalue()             
