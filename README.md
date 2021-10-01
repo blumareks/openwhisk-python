@@ -115,7 +115,13 @@ curl $(ibmcloud fn action get test/yathello --url | tail -1)
 And if you want to debug it:
 
 ```
-ibmcloud fn action invoke test/selhello --blocking
+ibmcloud fn action invoke test/yathello --blocking
+```
+
+You can also add a parameter ```url``` (the parameter ```name``` just to demonstrate the multiples):
+
+```
+ibmcloud fn action invoke test/yathello --param url myurl --param name Marek --blocking
 ```
 
 Let me know how it worked for you. Follow / DM me on Twitter: @blumareks
